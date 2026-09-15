@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# QGIS / IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.qgz~
+*.qgs~
+
+# Build artifacts
+build/
+dist/
+release/
+*.zip
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets.*
