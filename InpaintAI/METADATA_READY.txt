@@ -1,0 +1,10 @@
+Publication metadata configured for:
+
+Repository: https://github.com/maciejgalant/Inpaint-AI
+Homepage:   https://github.com/maciejgalant/Inpaint-AI
+Tracker:    https://github.com/maciejgalant/Inpaint-AI/issues
+Author:     Maciej Galant
+Email:      magal.pl@wp.pl
+
+The old metadata TODO has been completed.
+Before QGIS Plugin Repository submission, verify that all URLs are publicly accessible and that the exact release ZIP installs correctly.
