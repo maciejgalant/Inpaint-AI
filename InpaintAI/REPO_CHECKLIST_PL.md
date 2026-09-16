@@ -1,6 +1,8 @@
 # Inpaint AI Cloud — przygotowanie do QGIS Plugin Repository
 
-Stan: wersja rozwojowa / experimental.
+Stan: 1.0.0-rc1 / experimental, z poprawioną obsługą wyjątków zgłoszonych przez walidację QGIS.
+
+Commit dla tej poprawki: `Fix silent exception handling flagged by QGIS plugin validation`.
 
 ## Repozytorium
 

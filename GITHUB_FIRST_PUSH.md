@@ -12,7 +12,7 @@ Open a terminal in this repository folder and run:
 git init
 git branch -M main
 git add .
-git commit -m "Release Inpaint AI v1.0.0-rc1"
+git commit -m "Fix silent exception handling flagged by QGIS plugin validation"
 git remote add origin https://github.com/maciejgalant/Inpaint-AI.git
 git push -u origin main
 ```
@@ -26,7 +26,7 @@ git clone https://github.com/maciejgalant/Inpaint-AI.git
 cd Inpaint-AI
 # copy the prepared files into this directory
 git add .
-git commit -m "Release Inpaint AI v1.0.0-rc1"
+git commit -m "Fix silent exception handling flagged by QGIS plugin validation"
 git push
 ```
 
