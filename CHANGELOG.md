@@ -2,6 +2,16 @@
 
 All notable changes to Inpaint AI Cloud are documented here.
 
+## 1.0.0-rc1 — 2026-09-16
+
+- Prepared the first public release candidate from the tested Alpha 4.5 codebase.
+- Updated QGIS plugin metadata and publication links.
+- Finalized repository and in-package README files.
+- Added release notes and completed the MIT license text.
+- Kept the working image-generation backend unchanged.
+- Confirmed the PL/EN interface, orthophoto prompts, output-folder workflow, georeferenced output, authentication flow, explicit consent and extended request timeouts from Alpha 4.5.
+- Added release validation for archive structure, unwanted files and likely secrets.
+
 ## 2.0.0-alpha4.5 — 2026-09-15
 
 - Added configurable persistent output folder.

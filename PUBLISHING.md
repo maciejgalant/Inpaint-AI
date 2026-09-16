@@ -24,8 +24,8 @@ Repository prepared for:
 
 1. Push this source tree to the public GitHub repository.
 2. Confirm that the repository, README and Issues URLs work without authentication.
-3. Decide the first public version number. The current development build is `2.0.0-alpha4.5`.
-4. Decide whether the first public release remains `experimental=True`.
+3. Confirm that `InpaintAI/metadata.txt` contains `version=1.0.0-rc1`.
+4. Keep `experimental=True` for RC1; reconsider it for the final `1.0.0` release.
 5. Test at minimum on Windows with the exact intended QGIS 4 release.
 6. If possible, test on Linux with QGIS 4 as well.
 7. Test:
@@ -41,7 +41,7 @@ Repository prepared for:
 8. Run `python scripts/validate_plugin.py`.
 9. Run `python scripts/build_plugin_zip.py`.
 10. Install and test the exact generated `dist/InpaintAI.zip`.
-11. Create a matching Git tag / GitHub Release.
+11. Create the Git tag and GitHub Release `v1.0.0-rc1`, using `RELEASE_NOTES_v1.0.0-rc1.md`.
 12. Upload the exact tested ZIP to the QGIS Plugin Repository.
 13. Review any automated security or metadata feedback from the QGIS repository.
 

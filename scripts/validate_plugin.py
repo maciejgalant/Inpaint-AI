@@ -1,10 +1,7 @@
 from pathlib import Path
 import configparser
-import py_compile
 import re
-import shutil
 import sys
-import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = ROOT / "InpaintAI"
@@ -37,17 +34,12 @@ for forbidden in ["__pycache__", ".git", ".idea", ".vscode"]:
     if any(p.name == forbidden for p in PLUGIN.rglob("*")):
         errors.append(f"Forbidden generated/development directory in plugin: {forbidden}")
 
-with tempfile.TemporaryDirectory() as temp_dir:
-    temp_dir = Path(temp_dir)
-    for path in sorted(PLUGIN.glob("*.py")):
-        try:
-            py_compile.compile(
-                str(path),
-                cfile=str(temp_dir / f"{path.stem}.pyc"),
-                doraise=True,
-            )
-        except Exception as exc:
-            errors.append(f"Python compile failed: {path.name}: {exc}")
+for path in sorted(PLUGIN.glob("*.py")):
+    try:
+        source = path.read_text(encoding="utf-8")
+        compile(source, str(path), "exec")
+    except Exception as exc:
+        errors.append(f"Python compile failed: {path.name}: {exc}")
 
 text = "\n".join(
     p.read_text(encoding="utf-8", errors="ignore")

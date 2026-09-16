@@ -1,7 +1,7 @@
 [general]
 name=Inpaint AI Cloud
 description=Bilingual cloud AI inpainting for orthophotos in QGIS using OpenAI Image Edit
-version=2.0.0-alpha4.5
+version=1.0.0-rc1
 qgisMinimumVersion=4.0
 qgisMaximumVersion=4.99
 author=Maciej Galant
@@ -11,9 +11,8 @@ category=Raster
 icon=icon.png
 experimental=True
 deprecated=False
-changelog=Alpha 4.5: added configurable persistent output folder, Browse/Open controls, per-generation subfolders containing input.png, mask.png, result.png and georeferenced result.tif; preserves 15-minute MAX timeout and scrollable UI.
+changelog=1.0.0-rc1: first public release candidate based on the tested Alpha 4.5 code; includes PL/EN UI, orthophoto-focused prompts, persistent output folders, georeferenced GeoTIFF results, QGIS Authentication Manager integration, explicit upload consent and extended timeout support for high-quality generations.
 homepage=https://github.com/maciejgalant/Inpaint-AI
 repository=https://github.com/maciejgalant/Inpaint-AI
 tracker=https://github.com/maciejgalant/Inpaint-AI/issues
 tags=ai,orthophoto,inpainting,raster,openai,image-editing,gis
-

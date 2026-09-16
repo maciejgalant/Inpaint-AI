@@ -27,7 +27,7 @@ Inpaint AI Cloud is an experimental QGIS 4 plugin for generative editing of orth
 
 ## Version
 
-2.0.0-alpha4.5 — experimental development build.
+1.0.0-rc1 — first public release candidate, based on the tested Alpha 4.5 code without functional backend changes.
 
 ## Repository
 
