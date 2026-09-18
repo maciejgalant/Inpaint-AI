@@ -32,4 +32,4 @@ git push
 
 Do not commit OpenAI API keys, QGIS authentication databases or local `.env` files.
 
-After the source is pushed and validated, create tag `v1.0.0-rc1` and attach the exact tested `InpaintAI.zip` from the release package.
+After the source is pushed and validated, create tag `v1.0.1` and attach the exact tested `InpaintAI.zip` from the release package.

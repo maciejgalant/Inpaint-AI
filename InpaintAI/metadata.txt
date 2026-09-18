@@ -1,17 +1,17 @@
 [general]
 name=Inpaint AI Cloud
 description=Bilingual cloud AI inpainting for orthophotos in QGIS using OpenAI Image Edit
-version=1.0.0-rc1
+version=1.0.1
 qgisMinimumVersion=4.0
 qgisMaximumVersion=4.99
 author=Maciej Galant
 email=magal.pl@wp.pl
-about=Experimental bilingual PL/EN cloud inpainting workflow specialized for realistic orthophoto editing. Requires an OpenAI API account, API key, internet access and QGIS Authentication Manager. Image crops, masks and prompts are sent to the external OpenAI Image Edit service only after user consent.
+about=Bilingual PL/EN cloud inpainting workflow specialized for realistic orthophoto editing. Requires an OpenAI API account, API key, internet access and QGIS Authentication Manager. Image crops, masks and prompts are sent to the external OpenAI Image Edit service only after user consent.
 category=Raster
 icon=icon.png
-experimental=True
+experimental=False
 deprecated=False
-changelog=1.0.0-rc1: first public release candidate based on the tested Alpha 4.5 code; includes PL/EN UI, orthophoto-focused prompts, persistent output folders, georeferenced GeoTIFF results, QGIS Authentication Manager integration, explicit upload consent and extended timeout support for high-quality generations.
+changelog=1.0.1: first stable public release. Based on the fully tested 1.0.0-rc1 build; marks the plugin as non-experimental and updates release metadata without changing the working image-generation backend.
 homepage=https://github.com/maciejgalant/Inpaint-AI
 repository=https://github.com/maciejgalant/Inpaint-AI
 tracker=https://github.com/maciejgalant/Inpaint-AI/issues

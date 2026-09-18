@@ -1,6 +1,6 @@
 # Inpaint AI for QGIS
 
-**Inpaint AI Cloud** is a QGIS 4 plugin for generative editing of orthophotos with the OpenAI Image Edit API. Version **1.0.0-rc1** is the first public release candidate, based on the functionally tested Alpha 4.5 code.
+**Inpaint AI Cloud** is a QGIS 4 plugin for generative editing of orthophotos with the OpenAI Image Edit API. Version **1.0.1** is the first stable public release, promoted from the fully tested 1.0.0-rc1 build.
 
 The plugin lets the user draw a polygon directly on the QGIS map canvas, describe the requested change, send the rendered crop and mask after explicit consent, receive the edited image, georeference the result and add it back to the current QGIS project.
 
@@ -96,11 +96,11 @@ Contact: `magal.pl@wp.pl`
 
 ## Release status
 
-Current version: **1.0.0-rc1**.
+Current version: **1.0.1**.
 
-This is a release candidate. The plugin remains marked as `experimental=True` until the final repository review and broader platform testing are complete. No functional backend changes were introduced between the tested Alpha 4.5 build and this RC.
+This is the stable public release. The plugin is marked as `experimental=False`. No functional backend changes were introduced when promoting the tested release candidate to 1.0.1.
 
-Release notes: `RELEASE_NOTES_v1.0.0-rc1.md`.
+Release notes: `RELEASE_NOTES_v1.0.1.md`.
 
 ## License
 

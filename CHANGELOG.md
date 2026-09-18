@@ -2,6 +2,14 @@
 
 All notable changes to Inpaint AI Cloud are documented here.
 
+## 1.0.1 — 2026-09-18
+
+- Promoted the tested release candidate to the first stable public release.
+- Changed QGIS plugin metadata from `experimental=True` to `experimental=False`.
+- Updated version metadata and release documentation to `1.0.1`.
+- Kept the tested image-generation backend and user-facing functionality unchanged.
+
+
 ## 1.0.0-rc1 — 2026-09-16
 
 - Prepared the first public release candidate from the tested Alpha 4.5 codebase.

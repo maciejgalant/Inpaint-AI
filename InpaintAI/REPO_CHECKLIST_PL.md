@@ -1,6 +1,6 @@
 # Inpaint AI Cloud — przygotowanie do QGIS Plugin Repository
 
-Stan: 1.0.0-rc1 / experimental, z poprawioną obsługą wyjątków zgłoszonych przez walidację QGIS.
+Stan: 1.0.1 / stable, z poprawioną obsługą wyjątków zgłoszonych przez walidację QGIS.
 
 Commit dla tej poprawki: `Fix silent exception handling flagged by QGIS plugin validation`.
 
@@ -23,7 +23,7 @@ Commit dla tej poprawki: `Fix silent exception handling flagged by QGIS plugin v
 - instrukcja PL i EN,
 - informacja o prywatności,
 - QGIS 4.x zadeklarowany w metadata,
-- plugin oznaczony jako `experimental=True`,
+- plugin oznaczony jako `experimental=False`,
 - `homepage`, `repository`, `tracker`, `email` i `tags` uzupełnione,
 - brak `__pycache__` w ZIP.
 
@@ -31,8 +31,8 @@ Commit dla tej poprawki: `Fix silent exception handling flagged by QGIS plugin v
 
 1. Wysłać przygotowany kod do publicznego repozytorium GitHub.
 2. Sprawdzić publiczny dostęp do README oraz zakładki Issues.
-3. Ustalić numer pierwszej wersji publicznej.
-4. Zdecydować, czy pierwsza wersja pozostaje `experimental=True`.
+3. Wersja publikacyjna ustawiona na `1.0.1`.
+4. Potwierdzić w QGIS Plugin Repository, że wersja jest oznaczona jako stabilna (`experimental=False`).
 5. Przetestować co najmniej:
    - Windows + QGIS 4,
    - Linux + QGIS 4, jeśli dostępny,

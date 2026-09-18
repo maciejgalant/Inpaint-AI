@@ -1,6 +1,6 @@
 # Inpaint AI Cloud
 
-Inpaint AI Cloud is an experimental QGIS 4 plugin for generative editing of orthophotos using OpenAI Image Edit.
+Inpaint AI Cloud is a QGIS 4 plugin for generative editing of orthophotos using OpenAI Image Edit.
 
 ## Main features
 
@@ -27,7 +27,7 @@ Inpaint AI Cloud is an experimental QGIS 4 plugin for generative editing of orth
 
 ## Version
 
-1.0.0-rc1 — first public release candidate, based on the tested Alpha 4.5 code without functional backend changes.
+1.0.1 — first stable public release, promoted from the fully tested 1.0.0-rc1 build without functional backend changes.
 
 ## Repository
 
